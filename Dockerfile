@@ -12,6 +12,5 @@ RUN rm -rf /home/data-hanNLP.zip
 
 COPY requirements.txt /home/
 
-RUN pip3 install --no-cache-dir -r /home/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip3 install --no-cache-dir uwsgi -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip3 install  -r /home/requirements.txt
 CMD ["python"]

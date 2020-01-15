@@ -2,3 +2,4 @@ Flask==1.1.1
 jtyoui==2020.1.2
 jpype1==0.7.1
 paddlepaddle==1.6.1
+uWSGI
