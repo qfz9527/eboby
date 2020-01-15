@@ -6,12 +6,18 @@
 [![](https://img.shields.io/badge/Email-jtyoui@qq.com-red.svg)]()
 
 
-## Dockers安装
+## 手动Dockers安装
     cd /home
     git clone https://github.com/jtyoui/eboby.git
     cd eboby
     docker build -t eboby .
     docker run -d -v /home/eboby/:/mnt/eboby/ -p 9000:5000 eboby sh /mnt/eboby/app.sh 
+
+## DockerHub镜像下载
+    docker pull jtyoui/eboby
+
+## 阿里云Dockers镜像下载
+    docker pull registry.cn-hangzhou.aliyuncs.com/jtyoui/eboby
 
 ## curl摘要抽取接口
 ```shell script
